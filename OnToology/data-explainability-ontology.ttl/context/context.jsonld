@@ -195,6 +195,9 @@
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/produces",
       "@type" : "@id"
     },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "hasMean" : {
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasMean",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
