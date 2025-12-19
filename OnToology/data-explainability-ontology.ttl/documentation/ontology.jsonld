@@ -729,25 +729,41 @@
     } ]
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
+  "http://purl.org/dc/terms/abstract" : [ {
     "@language" : "en",
-    "@value" : "Data Explainability Ontology"
+    "@value" : "An ontology collecting concepts that are related to data explainability"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "This is an ontology covering data explainability and related concepts that improve or adviseray to it."
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
     "@value" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+  "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
-    "@value" : "This is an ontology covering data explainability and related concepts that improve or adviseray to it."
+    "@value" : "Data Explainability Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/0.1"

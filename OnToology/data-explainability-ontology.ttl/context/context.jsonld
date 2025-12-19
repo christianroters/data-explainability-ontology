@@ -7,6 +7,9 @@
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/identifies",
       "@type" : "@id"
     },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
     "FeatureExtraction" : {
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FeatureExtraction"
     },
@@ -274,6 +277,9 @@
     },
     "DataCleaning" : {
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataCleaning"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
     },
     "Visualization" : {
       "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Visualization"

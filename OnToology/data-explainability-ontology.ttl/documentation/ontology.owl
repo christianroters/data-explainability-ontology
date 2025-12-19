@@ -10,9 +10,10 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/0.1"/>
-        <dc:title xml:lang="en">Data Explainability Ontology</dc:title>
+        <terms:abstract xml:lang="en">An ontology collecting concepts that are related to data explainability</terms:abstract>
+        <terms:description xml:lang="en">This is an ontology covering data explainability and related concepts that improve or adviseray to it.</terms:description>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</terms:license>
-        <rdfs:comment xml:lang="en">This is an ontology covering data explainability and related concepts that improve or adviseray to it.</rdfs:comment>
+        <terms:title xml:lang="en">Data Explainability Ontology</terms:title>
     </owl:Ontology>
     
 
@@ -29,6 +30,13 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/title -->
 
 
@@ -36,10 +44,31 @@
     
 
 
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 

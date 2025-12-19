@@ -1,8 +1,9 @@
 <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/0.1> .
-<http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://purl.org/dc/elements/1.1/title> "Data Explainability Ontology"@en .
+<http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://purl.org/dc/terms/abstract> "An ontology collecting concepts that are related to data explainability"@en .
+<http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://purl.org/dc/terms/description> "This is an ontology covering data explainability and related concepts that improve or adviseray to it."@en .
 <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an ontology covering data explainability and related concepts that improve or adviseray to it."@en .
+<http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> <http://purl.org/dc/terms/title> "Data Explainability Ontology"@en .
 # 
 # 
 # #################################################################
@@ -12,11 +13,23 @@
 # #################################################################
 # 
 # 
+# http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
