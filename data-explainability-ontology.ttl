@@ -1,4 +1,5 @@
 @prefix : <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,20 +9,37 @@
 
 <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology> rdf:type owl:Ontology ;
                                                                                              owl:versionIRI <http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/0.1> ;
-                                                                                             <http://purl.org/dc/elements/1.1/title> "Data Explainability Ontology"@en ;
-                                                                                             <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
-                                                                                             rdfs:comment "This is an ontology covering data explainability and related concepts that improve or adviseray to it."@en .
+                                                                                             dct:abstract "An ontology collecting concepts that are related to data explainability"@en ;
+                                                                                             dct:description "This is an ontology covering data explainability and related concepts that improve or adviseray to it."@en ;
+                                                                                             dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+                                                                                             dct:title "Data Explainability Ontology"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
+###  http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/abstract
+dct:abstract rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+dct:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
 
 
 #################################################################
