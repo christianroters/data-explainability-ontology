@@ -1,291 +1,291 @@
 {
   "@context" : {
     "DomainSpecific" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DomainSpecific"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DomainSpecific"
     },
     "identifies" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/identifies",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/identifies",
       "@type" : "@id"
     },
     "abstract" : {
       "@id" : "http://purl.org/dc/elements/1.1/abstract"
     },
     "FeatureExtraction" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FeatureExtraction"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/FeatureExtraction"
     },
     "Labeling" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Labeling"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Labeling"
     },
     "isDictatedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isDictatedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isDictatedBy",
       "@type" : "@id"
     },
     "Reusable" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Reusable"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Reusable"
     },
     "Privacy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Privacy"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Privacy"
     },
     "DataProvenance" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataProvenance"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataProvenance"
     },
     "Interoperable" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Interoperable"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Interoperable"
     },
     "mitigates" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/mitigates",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/mitigates",
       "@type" : "@id"
     },
     "KnowledgeGraphs" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/KnowledgeGraphs"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/KnowledgeGraphs"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
     },
     "DomainSpecificFeatureExtraction" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DomainSpecificFeatureExtraction"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DomainSpecificFeatureExtraction"
     },
     "LabelingBias" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/LabelingBias"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/LabelingBias"
     },
     "isIdentifiedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isIdentifiedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy",
       "@type" : "@id"
     },
     "Governance" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Governance"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Governance"
     },
     "Characterization" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Characterization"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Characterization"
     },
     "DomainSpecificFeatureCreation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DomainSpecificFeatureCreation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DomainSpecificFeatureCreation"
     },
     "DatasetDescription" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DatasetDescription"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DatasetDescription"
     },
     "GroupFairness" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/GroupFairness"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/GroupFairness"
     },
     "DatasetSummarization" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DatasetSummarization"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DatasetSummarization"
     },
     "DataMining" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataMining"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataMining"
     },
     "Clustering" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Clustering"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Clustering"
     },
     "HumanInvolvment" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/HumanInvolvment"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/HumanInvolvment"
     },
     "precedes" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/precedes",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/precedes",
       "@type" : "@id"
     },
     "Accesible" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Accesible"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Accesible"
     },
     "ModelBasedFeatureCreation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ModelBasedFeatureCreation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ModelBasedFeatureCreation"
     },
     "hasFileFormat" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasFileFormat",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hasFileFormat",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "FAIR" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FAIR"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/FAIR"
     },
     "FeatureCreation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FeatureCreation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/FeatureCreation"
     },
     "DataCards" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataCards"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataCards"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hinders" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hinders",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hinders",
       "@type" : "@id"
     },
     "isGuidedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isGuidedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isGuidedBy",
       "@type" : "@id"
     },
     "Findable" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Findable"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Findable"
     },
     "employs" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/employs",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/employs",
       "@type" : "@id"
     },
     "Fairness" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Fairness"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Fairness"
     },
     "DimensonalityReduction" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DimensonalityReduction"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DimensonalityReduction"
     },
     "ExplainableEDA" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ExplainableEDA"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ExplainableEDA"
     },
     "Accountability" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Accountability"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Accountability"
     },
     "DataSquashing" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataSquashing"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataSquashing"
     },
     "isMitigatedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isMitigatedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isMitigatedBy",
       "@type" : "@id"
     },
     "ModelBased" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ModelBased"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ModelBased"
     },
     "isEmployedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isEmployedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isEmployedBy",
       "@type" : "@id"
     },
     "Human-Before-The-Loop" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Human-Before-The-Loop"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Human-Before-The-Loop"
     },
     "AdversarialBias" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/AdversarialBias"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/AdversarialBias"
     },
     "SelectionBias" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/SelectionBias"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/SelectionBias"
     },
     "isPrecededBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isPrecededBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isPrecededBy",
       "@type" : "@id"
     },
     "FeatureEngineering" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FeatureEngineering"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/FeatureEngineering"
     },
     "DataAudits" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataAudits"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataAudits"
     },
     "ModelBasedFeatureSelection" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ModelBasedFeatureSelection"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ModelBasedFeatureSelection"
     },
     "ExploratoryDataAnalysis" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ExploratoryDataAnalysis"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ExploratoryDataAnalysis"
     },
     "hasMedian" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasMedian",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hasMedian",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "dictates" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/dictates",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/dictates",
       "@type" : "@id"
     },
     "DataImputation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataImputation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataImputation"
     },
     "DataSheets" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataSheets"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataSheets"
     },
     "Anomalies" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Anomalies"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Anomalies"
     },
     "DataExplainability" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataExplainability"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataExplainability"
     },
     "RepresentationBias" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/RepresentationBias"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/RepresentationBias"
     },
     "produces" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/produces",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/produces",
       "@type" : "@id"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "hasMean" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasMean",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hasMean",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "isRealizedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isRealizedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isRealizedBy",
       "@type" : "@id"
     },
     "hasStandardDeviation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasStandardDeviation",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "hasCreationDate" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/hasCreationDate",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/hasCreationDate",
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
     },
     "Human-In-The-Loop" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Human-In-The-Loop"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Human-In-The-Loop"
     },
     "Context-WiseAnomalies" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Context-WiseAnomalies"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Context-WiseAnomalies"
     },
     "ModelBasedFeatureExtraction" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/ModelBasedFeatureExtraction"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/ModelBasedFeatureExtraction"
     },
     "Point-WiseAnomalies" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Point-WiseAnomalies"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Point-WiseAnomalies"
     },
     "Transparency" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Transparency"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Transparency"
     },
     "FeatureSelection" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/FeatureSelection"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/FeatureSelection"
     },
     "DataManipulation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataManipulation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataManipulation"
     },
     "contributesTo" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/contributesTo",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/contributesTo",
       "@type" : "@id"
     },
     "Trust" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Trust"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Trust"
     },
     "Biases" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Biases"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Biases"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "isProducedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isProducedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isProducedBy",
       "@type" : "@id"
     },
     "guides" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/guides",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/guides",
       "@type" : "@id"
     },
     "IndividualFairness" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/IndividualFairness"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/IndividualFairness"
     },
     "isHinderedBy" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/isHinderedBy",
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/isHinderedBy",
       "@type" : "@id"
     },
     "DomainSpecificFeatureSelection" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DomainSpecificFeatureSelection"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DomainSpecificFeatureSelection"
     },
     "StatisticalCharacterisation" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/StatisticalCharacterisation"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation"
     },
     "PrivacyPreservingDataAnalysis" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/PrivacyPreservingDataAnalysis"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/PrivacyPreservingDataAnalysis"
     },
     "DataCleaning" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/DataCleaning"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataCleaning"
     },
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
     },
     "Visualization" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Visualization"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Visualization"
     },
     "Methodology" : {
-      "@id" : "http://www.semanticweb.org/christianroters/ontologies/2025/7/data-explainability-ontology/Methodology"
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/Methodology"
     }
   }
 }
