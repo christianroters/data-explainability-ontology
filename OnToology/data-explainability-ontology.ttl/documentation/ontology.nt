@@ -78,6 +78,7 @@ _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/contributesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used whenever A contributes something to B."@en .
+<https://w3id.org/def/data-explainbility-ontology/contributesTo> <http://www.w3.org/2000/01/rdf-schema#label> "contributes to"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/dictates
 <https://w3id.org/def/data-explainbility-ontology/dictates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -87,6 +88,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://w3id.org/def/data-explainbility-ontology/dictates> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/Privacy> .
 <https://w3id.org/def/data-explainbility-ontology/dictates> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/data-explainbility-ontology/PrivacyPreservingDataAnalysis> .
 <https://w3id.org/def/data-explainbility-ontology/dictates> <http://www.w3.org/2000/01/rdf-schema#comment> "Dictates is a special form of guides that is stronger making the guidelines mandatory"@en .
+<https://w3id.org/def/data-explainbility-ontology/dictates> <http://www.w3.org/2000/01/rdf-schema#label> "dictates"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/employs
 <https://w3id.org/def/data-explainbility-ontology/employs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -114,6 +116,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/employs> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used whenever A uses and therfore employs B"@en .
+<https://w3id.org/def/data-explainbility-ontology/employs> <http://www.w3.org/2000/01/rdf-schema#label> "employs"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/guides
 <https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -138,6 +141,7 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A provides guidelines for B"@en .
+<https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/2000/01/rdf-schema#label> "guides"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hinders
 <https://w3id.org/def/data-explainbility-ontology/hinders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -171,6 +175,7 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/hinders> <http://www.w3.org/2000/01/rdf-schema#comment> "This propery is used whenever A makes it more difficult to achieve B."@en .
+<https://w3id.org/def/data-explainbility-ontology/hinders> <http://www.w3.org/2000/01/rdf-schema#label> "hinders"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/identifies
 <https://w3id.org/def/data-explainbility-ontology/identifies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -196,6 +201,7 @@ _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/identifies> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A makes B discoverable pointing directly at it"@en .
+<https://w3id.org/def/data-explainbility-ontology/identifies> <http://www.w3.org/2000/01/rdf-schema#label> "identifies"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isDictatedBy
 <https://w3id.org/def/data-explainbility-ontology/isDictatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -203,6 +209,7 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/data-explainbility-ontology/isDictatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/PrivacyPreservingDataAnalysis> .
 <https://w3id.org/def/data-explainbility-ontology/isDictatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/data-explainbility-ontology/Privacy> .
 <https://w3id.org/def/data-explainbility-ontology/isDictatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of dictates"@en .
+<https://w3id.org/def/data-explainbility-ontology/isDictatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is dictated by" .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isEmployedBy
 <https://w3id.org/def/data-explainbility-ontology/isEmployedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -229,6 +236,7 @@ _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isEmployedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of employs" .
+<https://w3id.org/def/data-explainbility-ontology/isEmployedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is employed by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isGuidedBy
 <https://w3id.org/def/data-explainbility-ontology/isGuidedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -252,6 +260,7 @@ _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isGuidedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of guides"@en .
+<https://w3id.org/def/data-explainbility-ontology/isGuidedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is guided by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isHinderedBy
 <https://w3id.org/def/data-explainbility-ontology/isHinderedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -283,6 +292,7 @@ _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isHinderedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of hinders"@en .
+<https://w3id.org/def/data-explainbility-ontology/isHinderedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is hindered by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy
 <https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -307,6 +317,7 @@ _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of idetnfies"@en .
+<https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is identified by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isMitigatedBy
 <https://w3id.org/def/data-explainbility-ontology/isMitigatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -332,6 +343,7 @@ _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isMitigatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of mitigates"@en .
+<https://w3id.org/def/data-explainbility-ontology/isMitigatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is mitigated by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isPrecededBy
 <https://w3id.org/def/data-explainbility-ontology/isPrecededBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -359,6 +371,7 @@ _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The reverse of precedes" .
+<https://w3id.org/def/data-explainbility-ontology/isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#label> "is preceded by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isProducedBy
 <https://w3id.org/def/data-explainbility-ontology/isProducedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -367,6 +380,7 @@ _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/data-explainbility-ontology/isProducedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/Characterization> .
 <https://w3id.org/def/data-explainbility-ontology/isProducedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/data-explainbility-ontology/Methodology> .
 <https://w3id.org/def/data-explainbility-ontology/isProducedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Meaning the domain is a physical result of the domain, not something abstract"@en .
+<https://w3id.org/def/data-explainbility-ontology/isProducedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is produced by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/isRealizedBy
 <https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -405,6 +419,7 @@ _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/d
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts\nIn contrast isProducedBy points to more phyiscal results so something that can acutally be used" .
+<https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is realized by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/mitigates
 <https://w3id.org/def/data-explainbility-ontology/mitigates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -428,6 +443,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/data-explainbility-ontology/Anomalies> .
 _:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/data-explainbility-ontology/mitigates> <http://www.w3.org/2000/01/rdf-schema#comment> "This porperty is used whenever A mitigates B"@en .
+<https://w3id.org/def/data-explainbility-ontology/mitigates> <http://www.w3.org/2000/01/rdf-schema#label> "mitigates"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/precedes
 <https://w3id.org/def/data-explainbility-ontology/precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -454,6 +471,7 @@ _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/data-explainbility-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A comes before B"@en .
+<https://w3id.org/def/data-explainbility-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "precedes"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/produces
 <https://w3id.org/def/data-explainbility-ontology/produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -461,6 +479,7 @@ _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <https://w3id.org/def/data-explainbility-ontology/produces> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/Methodology> .
 <https://w3id.org/def/data-explainbility-ontology/produces> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/data-explainbility-ontology/Characterization> .
 <https://w3id.org/def/data-explainbility-ontology/produces> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A produces something physical B"@en .
+<https://w3id.org/def/data-explainbility-ontology/produces> <http://www.w3.org/2000/01/rdf-schema#label> "produces"@en .
 # 
 # 
 # 
@@ -476,27 +495,37 @@ _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <https://w3id.org/def/data-explainbility-ontology/hasCreationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/DataProvenance> .
 <https://w3id.org/def/data-explainbility-ontology/hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://w3id.org/def/data-explainbility-ontology/hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Shows when data set was created" .
+<https://w3id.org/def/data-explainbility-ontology/hasCreationDate> <http://www.w3.org/2000/01/rdf-schema#label> "has Creation Date"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hasFileFormat
 <https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/DatasetDescription> .
 <https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "specifies the file format like csv, parquet, xlm etc."@en .
+<https://w3id.org/def/data-explainbility-ontology/hasFileFormat> <http://www.w3.org/2000/01/rdf-schema#label> "has File Format"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hasMean
 <https://w3id.org/def/data-explainbility-ontology/hasMean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasMean> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> .
 <https://w3id.org/def/data-explainbility-ontology/hasMean> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/data-explainbility-ontology/hasMean> <http://www.w3.org/2000/01/rdf-schema#comment> "Mean of the feature" .
+<https://w3id.org/def/data-explainbility-ontology/hasMean> <http://www.w3.org/2000/01/rdf-schema#label> "has mean" .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hasMedian
 <https://w3id.org/def/data-explainbility-ontology/hasMedian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasMedian> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> .
 <https://w3id.org/def/data-explainbility-ontology/hasMedian> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/data-explainbility-ontology/hasMedian> <http://www.w3.org/2000/01/rdf-schema#comment> "Median value of a feature" .
+<https://w3id.org/def/data-explainbility-ontology/hasMedian> <http://www.w3.org/2000/01/rdf-schema#label> "has median" .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation
 <https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> .
 <https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> <http://www.w3.org/2000/01/rdf-schema#comment> "standard deviation of a feature" .
+<https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> <http://www.w3.org/2000/01/rdf-schema#label> "has standard deviation" .
 # 
 # 
 # 

@@ -64,7 +64,8 @@
                                                                                             <https://w3id.org/def/data-explainbility-ontology/Trust>
                                                                                           )
                                                                             ] ;
-                                                                 rdfs:comment "This property is used whenever A contributes something to B."@en .
+                                                                 rdfs:comment "This property is used whenever A contributes something to B."@en ;
+                                                                 rdfs:label "contributes to"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/dictates
@@ -74,7 +75,8 @@
                                                             rdf:type owl:IrreflexiveProperty ;
                                                             rdfs:domain <https://w3id.org/def/data-explainbility-ontology/Privacy> ;
                                                             rdfs:range <https://w3id.org/def/data-explainbility-ontology/PrivacyPreservingDataAnalysis> ;
-                                                            rdfs:comment "Dictates is a special form of guides that is stronger making the guidelines mandatory"@en .
+                                                            rdfs:comment "Dictates is a special form of guides that is stronger making the guidelines mandatory"@en ;
+                                                            rdfs:label "dictates"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/employs
@@ -92,7 +94,8 @@
                                                                                       <https://w3id.org/def/data-explainbility-ontology/Visualization>
                                                                                     )
                                                                       ] ;
-                                                           rdfs:comment "This property is used whenever A uses and therfore employs B"@en .
+                                                           rdfs:comment "This property is used whenever A uses and therfore employs B"@en ;
+                                                           rdfs:label "employs"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/guides
@@ -109,7 +112,8 @@
                                                                                      <https://w3id.org/def/data-explainbility-ontology/Methodology>
                                                                                    )
                                                                      ] ;
-                                                          rdfs:comment "This property is used when A provides guidelines for B"@en .
+                                                          rdfs:comment "This property is used when A provides guidelines for B"@en ;
+                                                          rdfs:label "guides"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/hinders
@@ -129,7 +133,8 @@
                                                                                       <https://w3id.org/def/data-explainbility-ontology/Trust>
                                                                                     )
                                                                       ] ;
-                                                           rdfs:comment "This propery is used whenever A makes it more difficult to achieve B."@en .
+                                                           rdfs:comment "This propery is used whenever A makes it more difficult to achieve B."@en ;
+                                                           rdfs:label "hinders"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/identifies
@@ -147,7 +152,8 @@
                                                                                          <https://w3id.org/def/data-explainbility-ontology/Biases>
                                                                                        )
                                                                          ] ;
-                                                              rdfs:comment "This property is used when A makes B discoverable pointing directly at it"@en .
+                                                              rdfs:comment "This property is used when A makes B discoverable pointing directly at it"@en ;
+                                                              rdfs:label "identifies"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isDictatedBy
@@ -155,7 +161,8 @@
                                                                 rdfs:subPropertyOf <https://w3id.org/def/data-explainbility-ontology/isGuidedBy> ;
                                                                 rdfs:domain <https://w3id.org/def/data-explainbility-ontology/PrivacyPreservingDataAnalysis> ;
                                                                 rdfs:range <https://w3id.org/def/data-explainbility-ontology/Privacy> ;
-                                                                rdfs:comment "The reverse of dictates"@en .
+                                                                rdfs:comment "The reverse of dictates"@en ;
+                                                                rdfs:label "is dictated by" .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isEmployedBy
@@ -172,7 +179,8 @@
                                                                                            <https://w3id.org/def/data-explainbility-ontology/Visualization>
                                                                                          )
                                                                            ] ;
-                                                                rdfs:comment "The reverse of employs" .
+                                                                rdfs:comment "The reverse of employs" ;
+                                                                rdfs:label "is employed by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isGuidedBy
@@ -188,7 +196,8 @@
                                                                                          <https://w3id.org/def/data-explainbility-ontology/HumanInvolvment>
                                                                                        )
                                                                          ] ;
-                                                              rdfs:comment "The reverse of guides"@en .
+                                                              rdfs:comment "The reverse of guides"@en ;
+                                                              rdfs:label "is guided by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isHinderedBy
@@ -206,7 +215,8 @@
                                                                                            <https://w3id.org/def/data-explainbility-ontology/Privacy>
                                                                                          )
                                                                            ] ;
-                                                                rdfs:comment "The reverse of hinders"@en .
+                                                                rdfs:comment "The reverse of hinders"@en ;
+                                                                rdfs:label "is hindered by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isIdentifiedBy
@@ -223,7 +233,8 @@
                                                                                              <https://w3id.org/def/data-explainbility-ontology/ExploratoryDataAnalysis>
                                                                                            )
                                                                              ] ;
-                                                                  rdfs:comment "The reverse of idetnfies"@en .
+                                                                  rdfs:comment "The reverse of idetnfies"@en ;
+                                                                  rdfs:label "is identified by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isMitigatedBy
@@ -241,7 +252,8 @@
                                                                                             <https://w3id.org/def/data-explainbility-ontology/DatasetDescription>
                                                                                           )
                                                                             ] ;
-                                                                 rdfs:comment "The reverse of mitigates"@en .
+                                                                 rdfs:comment "The reverse of mitigates"@en ;
+                                                                 rdfs:label "is mitigated by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isPrecededBy
@@ -259,7 +271,8 @@
                                                                                            <https://w3id.org/def/data-explainbility-ontology/ExploratoryDataAnalysis>
                                                                                          )
                                                                            ] ;
-                                                                rdfs:comment "The reverse of precedes" .
+                                                                rdfs:comment "The reverse of precedes" ;
+                                                                rdfs:label "is preceded by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isProducedBy
@@ -268,7 +281,8 @@
                                                                 rdf:type owl:IrreflexiveProperty ;
                                                                 rdfs:domain <https://w3id.org/def/data-explainbility-ontology/Characterization> ;
                                                                 rdfs:range <https://w3id.org/def/data-explainbility-ontology/Methodology> ;
-                                                                rdfs:comment "Meaning the domain is a physical result of the domain, not something abstract"@en .
+                                                                rdfs:comment "Meaning the domain is a physical result of the domain, not something abstract"@en ;
+                                                                rdfs:label "is produced by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/isRealizedBy
@@ -290,7 +304,8 @@
                                                                                          )
                                                                            ] ;
                                                                 rdfs:comment """Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts
-In contrast isProducedBy points to more phyiscal results so something that can acutally be used""" .
+In contrast isProducedBy points to more phyiscal results so something that can acutally be used""" ;
+                                                                rdfs:label "is realized by"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/mitigates
@@ -306,7 +321,9 @@ In contrast isProducedBy points to more phyiscal results so something that can a
                                                                           owl:unionOf ( <https://w3id.org/def/data-explainbility-ontology/Anomalies>
                                                                                         <https://w3id.org/def/data-explainbility-ontology/Biases>
                                                                                       )
-                                                                        ] .
+                                                                        ] ;
+                                                             rdfs:comment "This porperty is used whenever A mitigates B"@en ;
+                                                             rdfs:label "mitigates"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/precedes
@@ -323,7 +340,8 @@ In contrast isProducedBy points to more phyiscal results so something that can a
                                                                                        <https://w3id.org/def/data-explainbility-ontology/FeatureEngineering>
                                                                                      )
                                                                        ] ;
-                                                            rdfs:comment "This property is used when A comes before B"@en .
+                                                            rdfs:comment "This property is used when A comes before B"@en ;
+                                                            rdfs:label "precedes"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/produces
@@ -331,7 +349,8 @@ In contrast isProducedBy points to more phyiscal results so something that can a
                                                                      owl:IrreflexiveProperty ;
                                                             rdfs:domain <https://w3id.org/def/data-explainbility-ontology/Methodology> ;
                                                             rdfs:range <https://w3id.org/def/data-explainbility-ontology/Characterization> ;
-                                                            rdfs:comment "This property is used when A produces something physical B"@en .
+                                                            rdfs:comment "This property is used when A produces something physical B"@en ;
+                                                            rdfs:label "produces"@en .
 
 
 #################################################################
@@ -342,32 +361,42 @@ In contrast isProducedBy points to more phyiscal results so something that can a
 <https://w3id.org/def/data-explainbility-ontology/hasCreationDate> rdf:type owl:DatatypeProperty ,
                                                                             owl:FunctionalProperty ;
                                                                    rdfs:domain <https://w3id.org/def/data-explainbility-ontology/DataProvenance> ;
-                                                                   rdfs:range xsd:dateTimeStamp .
+                                                                   rdfs:range xsd:dateTimeStamp ;
+                                                                   rdfs:comment "Shows when data set was created" ;
+                                                                   rdfs:label "has Creation Date"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/hasFileFormat
 <https://w3id.org/def/data-explainbility-ontology/hasFileFormat> rdf:type owl:DatatypeProperty ,
                                                                           owl:FunctionalProperty ;
                                                                  rdfs:domain <https://w3id.org/def/data-explainbility-ontology/DatasetDescription> ;
-                                                                 rdfs:range xsd:string .
+                                                                 rdfs:range xsd:string ;
+                                                                 rdfs:comment "specifies the file format like csv, parquet, xlm etc."@en ;
+                                                                 rdfs:label "has File Format"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/hasMean
 <https://w3id.org/def/data-explainbility-ontology/hasMean> rdf:type owl:DatatypeProperty ;
                                                            rdfs:domain <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> ;
-                                                           rdfs:range xsd:float .
+                                                           rdfs:range xsd:float ;
+                                                           rdfs:comment "Mean of the feature" ;
+                                                           rdfs:label "has mean" .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/hasMedian
 <https://w3id.org/def/data-explainbility-ontology/hasMedian> rdf:type owl:DatatypeProperty ;
                                                              rdfs:domain <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> ;
-                                                             rdfs:range xsd:float .
+                                                             rdfs:range xsd:float ;
+                                                             rdfs:comment "Median value of a feature" ;
+                                                             rdfs:label "has median" .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation
 <https://w3id.org/def/data-explainbility-ontology/hasStandardDeviation> rdf:type owl:DatatypeProperty ;
                                                                         rdfs:domain <https://w3id.org/def/data-explainbility-ontology/StatisticalCharacterisation> ;
-                                                                        rdfs:range xsd:float .
+                                                                        rdfs:range xsd:float ;
+                                                                        rdfs:comment "standard deviation of a feature" ;
+                                                                        rdfs:label "has standard deviation" .
 
 
 #################################################################
