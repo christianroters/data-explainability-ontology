@@ -1,4 +1,5 @@
 @prefix : <https://w3id.org/def/data-explainbility-ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -19,11 +20,11 @@
 #################################################################
 
 ###  http://purl.org/dc/elements/1.1/abstract
-<http://purl.org/dc/elements/1.1/abstract> rdf:type owl:AnnotationProperty .
+dc:abstract rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/title
-<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+dc:title rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/abstract
@@ -305,7 +306,7 @@ dct:title rdf:type owl:AnnotationProperty .
                                        )
                          ] ;
               rdfs:comment """Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts
-In contrast isProducedBy points to more phyiscal results so something that can acutally be used""" ;
+In contrast isProducedBy points to more phyiscal results so something that can acutally be used"""@en ;
               rdfs:label "is realized by"@en .
 
 
