@@ -472,7 +472,7 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:comment>Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts
+        <rdfs:comment xml:lang="en">Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts
 In contrast isProducedBy points to more phyiscal results so something that can acutally be used</rdfs:comment>
         <rdfs:label xml:lang="en">is realized by</rdfs:label>
     </owl:ObjectProperty>
