@@ -1926,6 +1926,7 @@
   "@id" : "https://w3id.org/def/data-explainbility-ontology/isRealizedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts\nIn contrast isProducedBy points to more phyiscal results so something that can acutally be used"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {

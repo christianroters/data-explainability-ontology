@@ -418,7 +418,7 @@ _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/data-explainbility-ontology/Characterization> .
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts\nIn contrast isProducedBy points to more phyiscal results so something that can acutally be used" .
+<https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts\nIn contrast isProducedBy points to more phyiscal results so something that can acutally be used"@en .
 <https://w3id.org/def/data-explainbility-ontology/isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is realized by"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/mitigates
