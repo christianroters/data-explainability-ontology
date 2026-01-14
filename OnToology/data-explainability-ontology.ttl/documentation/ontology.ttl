@@ -304,7 +304,7 @@
                                                                                          )
                                                                            ] ;
                                                                 rdfs:comment """Meaning the domain is a more abstract result of the domain, not something actual physical, e.g. both explainability and trust are abstract concepts
-In contrast isProducedBy points to more phyiscal results so something that can acutally be used""" ;
+In contrast isProducedBy points to more phyiscal results so something that can acutally be used"""@en ;
                                                                 rdfs:label "is realized by"@en .
 
 
