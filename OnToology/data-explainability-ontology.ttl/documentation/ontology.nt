@@ -140,7 +140,7 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/data-explainbility-ontology/Characterization> .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A provides guidelines for B"@en .
+<https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used when A provides guidelines for B."@en .
 <https://w3id.org/def/data-explainbility-ontology/guides> <http://www.w3.org/2000/01/rdf-schema#label> "guides"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/hinders
