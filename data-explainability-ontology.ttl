@@ -114,7 +114,7 @@ dct:title rdf:type owl:AnnotationProperty .
                                    :Methodology
                                  )
                    ] ;
-        rdfs:comment "This property is used when A provides guidelines for B"@en ;
+        rdfs:comment "This property is used when A provides guidelines for B."@en ;
         rdfs:label "guides"@en .
 
 
