@@ -183,7 +183,7 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:comment xml:lang="en">This property is used when A provides guidelines for B</rdfs:comment>
+        <rdfs:comment xml:lang="en">This property is used when A provides guidelines for B.</rdfs:comment>
         <rdfs:label xml:lang="en">guides</rdfs:label>
     </owl:ObjectProperty>
     
