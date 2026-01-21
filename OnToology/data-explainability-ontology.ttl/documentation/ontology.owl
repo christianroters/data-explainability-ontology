@@ -771,10 +771,10 @@ Additionally, the metadata should stay available even if the data are no longer 
     
 
 
-    <!-- https://w3id.org/def/data-explainbility-ontology/DataAudits -->
+    <!-- https://w3id.org/def/data-explainbility-ontology/DataAuditing -->
 
 
-    <owl:Class rdf:about="https://w3id.org/def/data-explainbility-ontology/DataAudits">
+    <owl:Class rdf:about="https://w3id.org/def/data-explainbility-ontology/DataAuditing">
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/data-explainbility-ontology/Methodology"/>
         <rdfs:comment xml:lang="en">They can provide important information about metadata.</rdfs:comment>
         <rdfs:label xml:lang="en">Data Audits</rdfs:label>
