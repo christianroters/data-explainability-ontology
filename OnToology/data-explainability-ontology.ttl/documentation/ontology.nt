@@ -630,11 +630,11 @@ _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 <https://w3id.org/def/data-explainbility-ontology/Context-WiseAnomalies> <http://www.w3.org/2000/01/rdf-schema#comment> "Context-wise anomalies are larger groups of point that deviate from the expected behavior"@en .
 <https://w3id.org/def/data-explainbility-ontology/Context-WiseAnomalies> <http://www.w3.org/2000/01/rdf-schema#label> "Context-Wise Anomalies"@en .
 # 
-# https://w3id.org/def/data-explainbility-ontology/DataAudits
-<https://w3id.org/def/data-explainbility-ontology/DataAudits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/data-explainbility-ontology/DataAudits> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/data-explainbility-ontology/Methodology> .
-<https://w3id.org/def/data-explainbility-ontology/DataAudits> <http://www.w3.org/2000/01/rdf-schema#comment> "They can provide important information about metadata."@en .
-<https://w3id.org/def/data-explainbility-ontology/DataAudits> <http://www.w3.org/2000/01/rdf-schema#label> "Data Audits"@en .
+# https://w3id.org/def/data-explainbility-ontology/DataAuditing
+<https://w3id.org/def/data-explainbility-ontology/DataAuditing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/data-explainbility-ontology/DataAuditing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/data-explainbility-ontology/Methodology> .
+<https://w3id.org/def/data-explainbility-ontology/DataAuditing> <http://www.w3.org/2000/01/rdf-schema#comment> "They can provide important information about metadata."@en .
+<https://w3id.org/def/data-explainbility-ontology/DataAuditing> <http://www.w3.org/2000/01/rdf-schema#label> "Data Audits"@en .
 # 
 # https://w3id.org/def/data-explainbility-ontology/DataCards
 <https://w3id.org/def/data-explainbility-ontology/DataCards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

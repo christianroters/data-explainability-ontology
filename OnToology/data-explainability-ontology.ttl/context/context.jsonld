@@ -162,9 +162,6 @@
     "FeatureEngineering" : {
       "@id" : "https://w3id.org/def/data-explainbility-ontology/FeatureEngineering"
     },
-    "DataAudits" : {
-      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataAudits"
-    },
     "ModelBasedFeatureSelection" : {
       "@id" : "https://w3id.org/def/data-explainbility-ontology/ModelBasedFeatureSelection"
     },
@@ -187,6 +184,9 @@
     },
     "Anomalies" : {
       "@id" : "https://w3id.org/def/data-explainbility-ontology/Anomalies"
+    },
+    "DataAuditing" : {
+      "@id" : "https://w3id.org/def/data-explainbility-ontology/DataAuditing"
     },
     "DataExplainability" : {
       "@id" : "https://w3id.org/def/data-explainbility-ontology/DataExplainability"

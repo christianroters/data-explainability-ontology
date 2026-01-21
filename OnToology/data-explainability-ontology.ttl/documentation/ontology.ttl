@@ -491,11 +491,11 @@ Additionally, the metadata should stay available even if the data are no longer 
                                                                          rdfs:label "Context-Wise Anomalies"@en .
 
 
-###  https://w3id.org/def/data-explainbility-ontology/DataAudits
-<https://w3id.org/def/data-explainbility-ontology/DataAudits> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://w3id.org/def/data-explainbility-ontology/Methodology> ;
-                                                              rdfs:comment "They can provide important information about metadata."@en ;
-                                                              rdfs:label "Data Audits"@en .
+###  https://w3id.org/def/data-explainbility-ontology/DataAuditing
+<https://w3id.org/def/data-explainbility-ontology/DataAuditing> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://w3id.org/def/data-explainbility-ontology/Methodology> ;
+                                                                rdfs:comment "They can provide important information about metadata."@en ;
+                                                                rdfs:label "Data Audits"@en .
 
 
 ###  https://w3id.org/def/data-explainbility-ontology/DataCards
